@@ -79,7 +79,7 @@ for epoch in range(total_epochs):
         optim.step()
         optim.zero_grad()
 
-        if idx % 100 == 0 : 
+        if idx % 1157 == 0 : 
             print(loss)
         # 중간 성능 평가 
 
